@@ -1,0 +1,16 @@
+{
+  "bscKeys": {
+    "bscScanApiKey": "",
+    "walletKey": "",
+    "walletAddress": ""
+  },
+  "ethKeys": {
+    "etherScanApiKey": "",
+    "walletKey": "",
+    "walletAddress": "",
+    "infuraProjectId": ""
+  },
+  "sharedKeys": {
+    "covalentApiKey": ""
+  }
+}

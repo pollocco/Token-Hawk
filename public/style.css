@@ -1,0 +1,139 @@
+
+@media (min-width: 0px) { 
+    body{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 992px) { 
+    body{
+        font-size: 1em;
+    }
+ }
+
+
+
+.last {
+    color: gray;
+    display: block;
+    font-size: 0.7em;
+}
+
+.date {
+    font-size: 0.9em;
+}
+
+.warning-div{
+    display: flex;
+    justify-content: center;
+}
+
+.renounced > svg {
+
+    padding-left: 4px;
+}
+
+.warning > svg {
+    vertical-align: bottom;
+
+    
+}
+
+.lock > svg {
+    vertical-align: bottom;
+    padding-left: 4px;
+}
+
+.side{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hide-unliquidated{
+    cursor: pointer;
+    /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#hide-scams{
+    cursor: pointer;
+    /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#container {
+    display: flex;
+
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tokens {
+    height: 65vh;
+    overflow-y: scroll;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+
+#console {
+    height: 30vh;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    color:chartreuse;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
+#check {
+    margin-right: 8px;
+}
+
+#spinner-td {
+    padding-top: 10%;
+    border-bottom: 0px;
+}
+
+#loading {
+    padding-top: 20px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+table button {
+    margin: 8px;
+}
+
+.table > :not(:first-child) {
+    border-top: 0;
+}
+
+thead tr:nth-child(1) th{
+    background: rgb(56, 56, 56);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+  }
