@@ -23,7 +23,7 @@ The necessary API keys can be (freely) obtained here:
 
 ### Compilation and Launch
 
-In order to compile the project, first run the command `tsc index.ts --outDir dist`. Once the project is compiled, run `node dist/index.js`. 
+Run `node dist/index.js` to launch the project. If you'd like to change the source code, you can re-compile using the command `tsc index.ts --outDir dist`.
 
 The program will launch the web server and the app can be accessed at `http://localhost:3003`.
 
